@@ -1,5 +1,6 @@
 # my-mlh-go-example
  An example Go application using the MyMLH API.
+
  NOTE: This application uses [Go modules](https://github.com/golang/go/wiki/Modules), which are available in versions 1.11 or higher.
 
 
