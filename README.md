@@ -23,4 +23,4 @@ go run main.go
 It will be available at :5000
 
 # Credit
-This sample is built off of the (Go OAuth Example)[https://github.com/douglasmakey/oauth2-example] by douglasmakey.
+This sample is built off of the [Go OAuth Example](https://github.com/douglasmakey/oauth2-example) by douglasmakey.
