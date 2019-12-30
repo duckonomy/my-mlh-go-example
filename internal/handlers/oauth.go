@@ -16,8 +16,6 @@ import (
 
 var oauthConfig = &oauth2.Config{
 	RedirectURL:  os.Getenv("REDIRECT_URL"),
-// "http://localhost:8000/auth/mymlh/callback",
-// "https://apply.calvinhacks.com/auth/mymlh/callback",
 	ClientID:     os.Getenv("MYMLH_CLIENT_ID"),
 	ClientSecret: os.Getenv("MYMLH_CLIENT_SECRET"),
 	Scopes:       []string{"email", "phone_number", "demographics", "birthday", "education", "event"},
